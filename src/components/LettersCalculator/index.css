@@ -1,0 +1,76 @@
+/* Write your code here. */
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #1d976c;
+}
+.frst {
+  width: 40vw;
+}
+.pp {
+  background-color: #ffffff;
+  padding: 10px;
+  color: #1d976c;
+  font-family: roboto;
+  width: 150px;
+}
+.input {
+  border: solid 1px #e4e7eb;
+  width: 300px;
+  background-color: #1d976c;
+  font-family: roboto;
+  color: white;
+  padding: 5px;
+  outline: none;
+}
+
+.head {
+  font-size: 40px;
+  font-family: roboto;
+  font-weight: bold;
+  color: white;
+}
+.label {
+  font-size: 10px;
+  font-family: roboto;
+  color: white;
+}
+.img {
+  height: 250px;
+}
+@media (width<=768px) {
+  .frst {
+    order: 1;
+    width: 70vw;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #1d976c;
+  }
+  .img {
+    height: 200px;
+  }
+  .head {
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+  .pp {
+    text-align: center;
+    width: 30vw;
+  }
+}
